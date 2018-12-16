@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RelatoriosActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gerar relatório por:"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <Button
+            android:id="@+id/contaRelatorioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conta" />
+
+        <Button
+            android:id="@+id/naturezaRelatorioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natureza da Operação" />
+
+        <Button
+            android:id="@+id/tipoTransacaoRelatorioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo da Transação" />
+
+        <Button
+            android:id="@+id/voltarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

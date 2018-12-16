@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CadastrarActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Nova Conta"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+        <TextView
+            android:id="@+id/descricaoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <EditText
+            android:id="@+id/descricaoEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <TextView
+            android:id="@+id/saldoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saldo: "
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="159dp" />
+
+        <EditText
+            android:id="@+id/saldoEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+
+        <Button
+            android:id="@+id/cadastrarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="258dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

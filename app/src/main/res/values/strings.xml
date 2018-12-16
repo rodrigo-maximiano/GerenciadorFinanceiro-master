@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gerenciador Financeiro</string>
+    <string name="SGF">Bem-vindo ao SGF</string>
+    <string name="cadastrar_nova_conta">Cadastrar Nova Conta</string>
+    <string name="title_activity_operacoes">OperacoesActivity</string>
+    <string name="title_activity_relatorios">RelatoriosActivity</string>
+    <string name="title_activity_conta_relatorio">contaRelatorioActivity</string>
+    <string name="title_activity_relatorio_conta">RelatorioContaActivity</string>
+    <string name="title_activity_relatorio_natureza">RelatorioNaturezaActivity</string>
+    <string name="title_activity_relatorio_tipo_transacao">RelatorioTipoTransacaoActivity</string>
+</resources>
